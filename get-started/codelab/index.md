@@ -135,7 +135,7 @@ class MyApp extends StatelessWidget {
   <li markdown="1">widget的主要工作是提供一个build()方法来描述如何根据其他较低级别的widget来显示自己。
   </li>
   <li markdown="1"> 本示例中的body的widget树中包含了一个Center widget, Center widget又包含一个 Text 子widget。
-    Center widget可以将其子widget树对其到屏幕中心。
+    Center widget可以将其子widget树对齐到屏幕中心。
   </li>
 </ul>
 {% comment %}
